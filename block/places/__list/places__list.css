@@ -1,0 +1,8 @@
+.places__list {
+    width: 984px;
+    min-height: 660px;
+    display: grid;
+    grid-template-columns: 460px 484px;
+    grid-auto-rows: fit-content(76px) 460px;
+    justify-content: space-between;
+}

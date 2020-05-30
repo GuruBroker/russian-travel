@@ -1,0 +1,9 @@
+.places__paragrapf {
+    margin: 0 0 24px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.places__paragrapf:last-child {
+    margin: 0;
+}

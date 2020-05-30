@@ -1,0 +1,13 @@
+.container {
+    grid-area: main;
+    margin-bottom: 92px;
+    display: grid;
+    grid-template-columns: 984px;
+    grid-gap: 92px;
+    justify-content: center;
+    grid-template-areas: 'lead' 
+                         'intro'
+                         'photo-grid'
+                         'places'
+                         'cover';
+}

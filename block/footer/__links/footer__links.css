@@ -1,0 +1,8 @@
+.footer__links {
+    width: 465px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 18px;
+    grid-column: 1;
+}

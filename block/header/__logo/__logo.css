@@ -1,0 +1,7 @@
+.header__logo {
+    width: 176px;
+    height: 52px;
+    grid-column: 1;
+    object-fit: cover;
+    object-position: center;
+}
