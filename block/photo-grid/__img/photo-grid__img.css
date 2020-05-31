@@ -21,7 +21,7 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
     .photo-grid__img {
-        width: 288px;
+        width: 90%;
         height: 216px;
     }
 }
