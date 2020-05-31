@@ -4,3 +4,11 @@
     font-size: 96px;
     line-height: 100px;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .lead__title {
+        margin: 0 0 16px;
+        font-size: 40px;
+        line-height: 44px;
+    }
+}

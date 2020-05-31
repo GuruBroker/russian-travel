@@ -5,3 +5,10 @@
     object-fit: cover;
     object-position: center;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .header__logo {
+        width: 142px;
+        min-height: 42px;
+    }
+}

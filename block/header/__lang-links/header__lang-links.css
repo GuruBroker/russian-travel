@@ -2,5 +2,13 @@
     width: 77px;
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     grid-column: 3;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .header__lang-links {
+        width: 62px;
+    }
+    
 }

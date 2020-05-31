@@ -4,7 +4,21 @@
 @import url(./__accent/intro__accent.css);
 
 .intro {
-    grid-area: intro;
     width: 690px;
+    grid-area: intro;
     justify-self: start;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .intro {
+        width: 720px;
+        justify-self: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .intro {
+        width: 288px;
+        justify-self: center;
+    }
 }

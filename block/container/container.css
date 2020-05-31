@@ -11,3 +11,25 @@
                          'places'
                          'cover';
 }
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .container {
+        grid-template-columns: 928px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        margin-bottom: 88px;
+        grid-template-columns: 768px;
+        grid-gap: 88px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .container {
+        margin-bottom: 64px;
+        grid-template-columns: 288px;
+        grid-gap: 64px;
+    }
+}

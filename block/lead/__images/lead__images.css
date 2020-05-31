@@ -2,6 +2,30 @@
     margin: 0 0 8px;
     width: 984px;
     height: 615px;
-    object-fit: cover;
-    object-position: center;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .lead__images {
+        width: 928px;
+        height: 580px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .lead__images {
+        width: 768px;
+        height: 480px;
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .lead__images {
+        width: 320px;
+        height: 200px;
+    }
+    
 }
