@@ -18,7 +18,7 @@
     .places__list {
         width: 720px;
         grid-template-columns: 340px 352px;
-        grid-template-rows: fit-content(46px) 340px;
+        grid-template-rows: fit-content(46px) 534px;
     }
 }
 
